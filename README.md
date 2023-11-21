@@ -1,5 +1,5 @@
 # Pyret (Basic! Edition)
-#### Video Demo:  TODO
+#### Video Demo:  https://youtu.be/wyJi9o-8oL8
 #### Description:
 This is a very basic command-line  application designed to allow users to easily download videos from YouTube.
 
