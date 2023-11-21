@@ -1,6 +1,6 @@
 This is a very basic command-line  application designed to allow users to easily download videos from YouTube.
 
-To use, simply enter `python3 basicpyret.py`.
+To use, simply enter `python3 basicpyret.py` in the command-line while in the application folder.
 
 Once running, the application will ask whether you are downloading from a video or playlist link.
 If downloading a video link, enter `1`.
