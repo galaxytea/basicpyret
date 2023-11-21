@@ -1,12 +1,12 @@
 from pytube import YouTube, Playlist
 
 def download_video(wlink):
-    YouTube(wlink).streams.get_highest_resolution().download()
+    YouTube(wlink).streams.get_highest_resolution().download('/downloads')
 
 def download_playlist(plink):
     plist = Playlist(plink)
     for video in plist.videos:
-        video.streams.get_highest_resolution().download()
+        video.streams.get_highest_resolution().download('/downloads')
 
 def main():
     menutype = input('1: video      2: playlist\n enter choice:')
